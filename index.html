@@ -155,9 +155,13 @@ pre span {
       <div id="article">
         <div id="content">
           <p>It’s easy to draft several emails and send them out using Outlook. But imagine if you need to send out hundreds of emails that address different people by name or that contain slightly different information. It would be daunting to write one after another and change just a little bit in each email. That’s why using VBA is much easier than using the CC or BCC function on hundreds of separate emails.</p>
+         
+          <p>Say, for example, you want to send separate emails to all of your friends for Thanksgiving. You will need to list all of the recipients’ email addresses, subjects, email bodies, and the people being addressed in the “EmailList” worksheet, as demonstrated in the screenshot below:</p>
+         
           <div class="row justify-content-center mb-4"><img width="70%" src="./assets/EmailList.PNG"></div>
-          <p>You can find the “Developer” tab on the top ribbon of Excel. On the “Developer” tab, you can find “Visual Basic.” Once you click “Visual Basic,” there will be a drop-down menu on the top left of the new screen where you can find “Module.” Once you click this, it opens the VBA editor. Alternatively, you can press “Alt + F11” to open the VBA editor.</p>
+          <p>Next, you can find the “Developer” tab on the top ribbon of Excel. On the “Developer” tab, you can find “Visual Basic.” Once you click “Visual Basic,” there will be a drop-down menu on the top left of the new screen where you can find “Module.” Once you click this, it opens the VBA editor. Alternatively, you can press “Alt + F11” to open the VBA editor. In order to access Outlook features, we need to check the “Microsoft Outlook 16.0 Object Library” box under “References...” on the “Tools” tab in VBA. A screenshot is provided below:</p>
  
+          
           <div class="row justify-content-center"><img class="slideSample" src="./assets/connectVBA.PNG"></div>
  <p>Then, you can write the following code in the VBA editor:</p>
 <pre>
